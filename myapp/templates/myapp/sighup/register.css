@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 35px;
+  background: url(../img/footer-bg.png);
+}
+.register--page {
+  margin: auto;
+  width: 40%;
+  height: 90vh;
+  border: 1px solid rgb(233, 210, 168);
+  background-color: white;
+  border-radius: 20px;
+}
+.register--page h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(255, 165, 0);
+}
+.register--page input {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 90%;
+  height: 10px;
+  padding: 20px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-color: rgb(255, 165, 0);
+  border-radius: 3px;
+  outline-color: rgb(255, 165, 0);
+}
+@media only screen and (max-width: 600px) {
+  .register--page {
+    width: 80%;
+    height: auto;
+    padding-bottom: 15px;
+    padding-right: 20px;
+  }
+  .register--page .submit {
+    width: 96%;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .having--account span {
+    font-size: 7px;
+    padding-left: 9px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .having--account a {
+    font-size: 7px;
+    text-decoration: none;
+    /* padding-left: 0px; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .forgot--password a {
+    font-size: 7px;
+    padding-left: 5px;
+  }
+}
+.getstarted {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.getstarted button {
+  color: white;
+  background-color: rgb(255, 165, 0);
+  text-align: center;
+  border-radius: 3px;
+  width: 93.8%;
+  height: 50px;
+  border: none;
+}
+.having--account {
+  font-size: 13px;
+  color: gray;
+}
+.forgot--password {
+  font-size: 13px;
+}
+.head {
+  justify-content: space-between;
+  /* background-color: white; */
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 93%;
+  /* background-color: red; */
+}

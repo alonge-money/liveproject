@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin-top: 50px;
+  background: url(../../img/footer-bg.png);
+}
+.login--page {
+  padding-top: 50px;
+  margin: auto;
+  width: 40%;
+  height: 86vh;
+  border: 1px solid rgb(233, 210, 168);
+  background-color: white;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login--page img {
+    width: 90px;
+    /* margin-left: 60px;
+     */
+    text-align: center;
+  }
+  .login--page .submit {
+    width: 94%;
+    height: 40px;
+    /* padding: 10px; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .login--page {
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+.login--page h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(255, 165, 0);
+}
+.login--page input {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height: 20px;
+  padding: 20px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-color: rgb(255, 165, 0);
+  border-radius: 3px;
+  outline-color: rgb(255, 165, 0);
+}
+.dont--have--account {
+  font-size: 13px;
+  color: gray;
+}
+.head {
+  justify-content: space-between;
+  /* background-color: white; */
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 93%;
+  /* background-color: red; */
+}
+@media only screen and (max-width: 740px) {
+  .login--page {
+    width: 90%;
+    height: auto;
+    padding-bottom: 15px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dont--have--account {
+    font-size: 7px;
+    /* margin-top: 2px; */
+    /* color: brown; */
+  }
+  .dont--have--account a {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .forgot--password a {
+    font-size: 7px;
+    padding-left: 4px;
+  }
+}
+.forgot--password {
+  font-size: 13px;
+  padding-right: 20px;
+}
+.getstarted {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.getstarted button {
+  color: white;
+  background-color: rgb(255, 165, 0);
+  text-align: center;
+  border-radius: 3px;
+  width: 93.8%;
+  height: 50px;
+  border: none;
+}
